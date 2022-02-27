@@ -1,0 +1,76 @@
+{
+  "details": {
+    "name": "Jay",
+    "email": "jay@gmail.com",
+    "phone": "8899778899",
+    "degree": "B.Tech CSE",
+    "summary": "Love to explore new things and learn latest technologies",
+    "location": {
+      "address": "Chennai",
+      "state": "TamilNadu"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jay_99",
+        "url": "https://www.linkedin.com/jay_99"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "State Street",
+      "position": "Associate",
+      "website": "www.statestr.com",
+      "startDate": "02 July 2020",
+      "summary": "Application Developer",
+      "highlights": [
+        "Lead Cultural Committe member",
+        "Winner at Facebook HerTech Hackathon",
+        "Finalists at India Hacs Hacakthon"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "NIT",
+      "area": "Warangal",
+      "studyType": "permanent",
+      "startDate": "2015",
+      "endDate": "2020",
+      "gpa": "9.8",
+      "courses": [
+        "AI/ML",
+        "Python",
+        "Java",
+        "Data Science",
+        "Flutter"
+      ]
+    }
+  ],
+  "skills": [
+    "JAVA",
+    "C",
+    "Flutter",
+    "Python",
+    "Javascript",
+    "HTML",
+    "SailPoint"
+  ],
+  "languages": [
+    "Telugu",
+    "Tamil",
+    "English",
+    "Tamil",
+    "Kannada",
+    "Hindi"
+  ],
+  "interests": [
+    "Poetry",
+    "Singing",
+    "Dancing",
+    "Gardening",
+    "Music",
+    "Acting"
+  ]
+}
