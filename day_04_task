@@ -1,0 +1,38 @@
+
+TASK SUBMISSION DAY 4
+1.	How to compare two JSON have the same properties without order?
+1.	var obj1 = { name: "Person 1", age:5 };
+2.	var obj2 = { age:5, name: "Person 1" };
+Ans-  We need to install Lodash package in npm and then execute the below code if we are not concerned of order of properties in the JSON objects.
+
+var obj1 = { name: "Person 1", age:5 };
+var obj2 = { age:5, name: "Person 1" };
+   
+var res = _.isEqual(obj1, obj2);
+console.log(_.isEqual(obj1, obj2));
+
+output – true
+
+2. Use the rest countries API url -> https://restcountries.com/v3.1/all and display all the country flags in console
+var req = new XMLHttpRequest();
+req.open("GET", "https://restcountries.com/v3.1/all");
+req.send();
+req.onload = function () {
+    var data = JSON.parse(req.response);
+    for (let i = 0; i < data.length; i++) {
+        console.log(data[i].flag)
+    }
+}
+
+3. Use the same rest countries and print all countries name, region, sub region and population
+var XMLHttpRequest = require('xhr2');
+var req = new XMLHttpRequest();
+req.open("GET", "https://restcountries.com/v3.1/all");
+req.send();
+req.onload = function () {
+    var data = JSON.parse(req.response);
+    for (let i = 0; i < data.length; i++) {
+        console.log("Name: " + data[i].name.official + " |Region: " + data[i].region + " |SubRegion: " + data[i].subregion + " |Population: " + data[i].population)
+    }
+}
+
